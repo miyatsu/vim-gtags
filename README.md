@@ -12,21 +12,10 @@ Add this line to your vim-plug
 Plug 'miyatsu/vim-gtags-cscope'
 ```
 
-# Patched branch
+# Branch
 
-The origin vim scripts may not satisfy to everyone, you may find proper
-patched branch in this repository.
+The origin vim scripts may not satisfy to everyone, you may find patches
+apply to the scripts at **master** branch.
 
-In the mean time, the **master** branch remain untouched to the original file.
-Use any branch to feed your need.
-
-## Branch information
-
-* master (this branch)
-* no\_errors
-
-### no\_errors
-
-The branch no\_errors disable the error output if the vim can not find GTAGS
-file when auto load option is enabled.
+We also save the original scripts untouched in **origin** branch.
 
